@@ -5,14 +5,14 @@ ui <- fluidPage(
   
 # making the app more visually appealing by giving it a theme
   theme = bslib::bs_theme(bootswatch = "quartz"),
-# putting the crunchyroll logo in the corner to show what website the anime can be found/watched at
+# Feature 1: putting the crunchyroll logo in the corner to show what website the anime can be found/watched at
   titlePanel(
     tags$div(
       tags$img(src = "Crunchyroll_Logo.png", height = 110, width = 100),
       "Anime I Have Seen :)"
     )
   ),
-# filtering the csv by genre so that you can find anime that appeals to your taste
+# Feature 2: filtering the csv by genre so that you can find anime that appeals to your taste
 # multiple genres can be included using the check box - for a more specific search 
   sidebarLayout(
     sidebarPanel("Genre(s) of interest", 
@@ -31,7 +31,7 @@ server <- function(input, output) {
       filter(rowSums(select(., input$genres)) == length(input$genres))
   })
 
-# showing the number of results found for your search
+# Feature 3: showing the number of results found from your search
   output$result_count <- renderText({
     req(input$genres)
     count <- nrow(crunchyroll %>%
