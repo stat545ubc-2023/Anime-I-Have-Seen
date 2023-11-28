@@ -5,7 +5,7 @@ Here is the link: [UPDATED - Anime I Have Seen :)](https://jchalissery14.shinyap
 
 This app allows you to filter for whichever genre(s) you are interested in and gives you the title, link to the page, number of episodes, rating, and all the genres the anime belongs to.  
 The additional features allow you to arrange the filtered animes according to the number of episodes it has or its rating.   
-You can also interact with the table showing the filtered animes by clicking through the pages and using the search bar. 
+You can also interact with the table showing the filtered animes by clicking through the pages and using the search bar.   
 *Note that Features 1-3 are from the previous version of the app, and Features 4-6 are from the updated version*
 
 The dataset used to build this app is included in this repository - it is a modified version of [this dataset](https://github.com/cckuqui/anime-db/blob/master/datasets/crunchyroll.csv)  
