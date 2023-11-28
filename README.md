@@ -1,7 +1,7 @@
 # Anime I Have Seen :) 
 Hello! This repository includes the code for an app I made with all the anime I have seen from the website **Crunchyroll** (logo in the top left corner of the deployed app).   
 Here is a link to the app for assignment B3: [Anime I Have Seen :)](https://jchalissery14.shinyapps.io/assignment-b3-jchalissery14/)   
-Here is the link for assignment B4: [Anime I Have Seen :)](https://jchalissery14.shinyapps.io/assignment-b4-jchalissery14/)
+Here is the link for assignment B4: [UPDATED - Anime I Have Seen :)](https://jchalissery14.shinyapps.io/assignment-b4-jchalissery14/)
 
 Assignment B4 has the updated version of the app, with additional user-friendly features!
 
